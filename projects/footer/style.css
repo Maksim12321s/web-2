@@ -2,20 +2,102 @@
     margin: 0;
     padding: 0;
 }
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 html,body{
     font-family: 'Exo 2', sans-serif;
     height: 100%;
 }
 .wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; 
 	min-height: 100%;
 }
 .main {
 	flex: 1 0 auto;
 }
 .footer{
-    flex: 0 0 auto;
+    background-color:#05A88D;
+    height:300px;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
 }
+.up{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    color:#F1E67D; 
+    font-size: 30px;
+}
+/*.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    font-family: exo-2;
+    text-align: right;
+}*/
+.left{
+     
+    color:#FFFFFF; 
+    font-family: exo-2;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+table {
+ border-collapse: collapse;
+    width: 100%;
+    margin: 40px 40px 20px 40px;
+    height:110px;
+    
+}
+.t{
+   border-bottom: solid 2px white;
 
-
+}
+.r{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align:right;
+    height: 110px;
+    
+        
+}
+.down{
+    color:#FFFFFF;
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:150px;
+}
+.l{
+    text-align:left;
+    height: 150px;
+    
+}    
+.number{
+    color:#F1E67D;
+    font-size:25px;
+}
+.contact{
+    color:#FFFFFF;
+    font-size:20px;
+}
+.adress{
+    color:#FFFFFF;
+    font-size: 13px;
+}
+.text{
+    margin: 50px 0 40px 0;
+    color:#FFFFFF;
+    width:60%;
+    
+}
